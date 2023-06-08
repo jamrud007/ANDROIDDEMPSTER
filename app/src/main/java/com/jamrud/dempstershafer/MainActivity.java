@@ -55,4 +55,10 @@ public class MainActivity extends Activity {
     public void PindahJenisPenyakit(View view) {
         startActivity(new Intent(this, JenisPenyakitActivity.class));
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finishAffinity();
+    }
+
 }
