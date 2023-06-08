@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsplash"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/boogalo_regular"
+            android:text="SOLUSI PENCEGAHAN"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text1112"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/text111"
+            android:layout_marginLeft="10dp"
+            android:text="Sistem Pakar Identifikasi Penyakit Gigi Dempster Shafer"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--kariesgigi-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/buletcardview">
+                    <!--kariesgigi-->
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="KARIES GIGI"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                    <!--kariesgigi-->
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT"
+                        android:layout_marginLeft="8dp"
+                        android:textStyle="bold"
+                        android:text="Pengobatan Penyakit :" />
+                    <!--kariesgigi-->
+
+                    <TextView
+                        android:id="@+id/TXTisitatacara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="\u2713Tambal gigi: &#32;&#10; &#32;&#10; apabila kerusakan belum dalam. Tambalan akan menutupi rongga pada permukaan gigi agar tidak meluas.&#32;&#10;&#32;&#10;   \u2713Perawatan saluran akar: &#32;&#10; &#32;&#10; ketika kerusakan gigi sudah mencapai bagian akar gigi dapat dipilih sebagai alternatif dari pencabutan.&#32;&#10;&#32;&#10;  \u2713Cabut gigi: &#32;&#10; &#32;&#10; dilakukan saat kerusakan sudah sangat parah dan tidak dapat diatasi dengan perawatan lain.&#32;&#10;&#32;&#10;   \u2713Obat alami: &#32;&#10; &#32;&#10; berkumur dengan air garam, penggunaan akar manis dan bawang putih  menjadi obat alami gigi berlubang."
+                        android:textAlignment="inherit" />
+                    <!--kariesgigi-->
+
+                    <TextView
+                        android:id="@+id/TXTpencegahan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="500dp"
+                       android:textStyle="bold"
+                        android:text="Pencegahan Penyakit :" />
+                    <!--kariesgigi-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="inherit"
+                        android:layout_below="@+id/TXTpencegahan"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="\u2713Sikat gigi dengan benar, minimal dua kali sehari. Pagi setelah sarapan dan malam sebelum tidur. &#32;&#10;&#32;&#10;
+\u2713Gunakan pasta gigi dengan kandungan fluoride. &#32;&#10;&#32;&#10;
+\u2713Gunakan benang gigi (dental floss) untuk membersihkan sisa makanan di sela-sela gigi. &#32;&#10;&#32;&#10;
+\u2713Kurangi konsumsi makanan dan minuman yang terlalu manis. &#32;&#10;&#32;&#10;
+\u2713Menggunakan obat kumur sesuai kebutuhan. &#32;&#10;&#32;&#10;
+\u2713Rutin periksa gigi ke dokter, minimal enam bulan sekali. &#32;&#10;&#32;&#10;
+" />
+                    <!--kariesgigi-->
+
+
+                </RelativeLayout>
+                <!--GINGIVITIS-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+                    <!--GINGIVITIS-->
+
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="GINGIVITIS"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                    <!--GINGIVITIS-->
+
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT2"
+                        android:layout_marginLeft="8dp"
+                       android:textStyle="bold"
+                        android:text="Pengobatan Penyakit :" />
+                    <!--GINGIVITIS-->
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="\u2713Di dokter akan melakukan scaling gigi atau pembersihan karang gigi. Dilanjutkan dengan perawatan saluran akar. &#32;&#10; &#32;&#10;
+
+\u2713Cara mengatasi gingivitis juga bisa dengan penambalan atau penggantian gigi yang rusak atau berlubang. Akan tetapi, prosedur ini hanya akan dilakukan bila kondisi tersebut berkaitan dengan gingivitis.. &#32;&#10; &#32;&#10;
+
+\u2713Gingivitis biasanya sembuh setelah pembersihan gigi secara menyeluruh. &#32;&#10; &#32;&#10;"
+                        android:textAlignment="inherit" />
+                    <!--GINGIVITIS-->
+
+
+                    <TextView
+                        android:id="@+id/TXTpencegahan2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="400dp"
+                        android:textStyle="bold"
+                        android:text="Pencegahan Penyakit :" />
+                    <!--GINGIVITIS-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="inherit"
+                        android:layout_below="@+id/TXTpencegahan2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="\u2713Menjaga kebersihan dan kesehatan gigi dan gusi. Karena penyebab gingivitis adalah plak, maka kebersihan gigi dan gusi adalah yang utama. Biasakan menyikat gigi dua kali selama dua menit di pagi hari setelah sarapan dan malam hari sebelum tidur. &#32;&#10; &#32;&#10;
+\u2713Menggunakan benang gigi. Benang gigi membantu membersihkan sisa-sisa makanan yang masih tertinggal di sela-sela gigi dan menyebabkan berkembangnya plak pada gigi. &#32;&#10; &#32;&#10;
+\u2713Pembersihan plak dan karang gigi rutin ke dokter gigi. Kunjungan ke dokter gigi minimal sekali setiap 6 bulan berlaku untuk mengontrol plak dan karang gigi supaya tidak berkembang menjadi gingivitis atau penyakit gigi dan mulut lainnya.&#32;&#10; &#32;&#10;
+\u2713Kurangi atau hentikan kebiasaan-kebiasaan yang dapat meningkatkan risiko terkena gingivitis seperti merokok dan mengonsumsi makanan dan minuman manis dan asam. &#32;&#10; &#32;&#10;"
+                        />
+                    <!--GINGIVITIS-->
+
+
+
+                </RelativeLayout>
+                <!--PERIODONTITIS-->
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+                    <!--PERIODONTITIS-->
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="PERIODONTITIS"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                    <!--PERIODONTITIS-->
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT3"
+                        android:layout_marginLeft="8dp"
+                         android:textStyle="bold"
+                        android:text="Pengobatan Penyakit :" />
+                    <!--PERIODONTITIS-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text=" &#9679;Pada periodontitis yang belum parah, metode pengobatan yang dilakukan dokter adalah: &#32;&#10; &#32;&#10;
+\u2713Scaling, untuk menghilangkan karang gigi dan bakteri dari permukaan gigi atau bagian bawah gusi&#32;&#10; &#32;&#10;
+\u2713Root planing, untuk membersihkan dan mencegah penumpukan bakteri dan karang gigi lebih lanjut, serta untuk menghaluskan permukaan akar&#32;&#10; &#32;&#10;
+\u2713Pemberian antibiotik oral, obat kumur atau gel, untuk menghilangkan bakteri penyebab infeksi&#32;&#10; &#32;&#10;
+\u2713Pencabutan gigi yang terdampak, agar penumpukan bakteri tidak bertambah parah dan menyerang gigi di sekitarnya&#32;&#10; &#32;&#10; &#32;&#10;
+
+&#9679;Periodontitis yang sudah parah, dokter akan melakukan prosedur operasi, seperti: &#32;&#10; &#32;&#10;
+\u2713Flap surgery, untuk mengurangi endapan karang gigi di kantong atau celah gusi&#32;&#10; &#32;&#10;
+\u2713Soft tissue grafts atau operasi cangkok jaringan lunak, untuk mengganti jaringan yang rusak akibat periodontitis&#32;&#10; &#32;&#10;
+\u2713Bone grafting atau operasi cangkok tulang, untuk memperbaiki tulang-tulang di sekitar akar gigi yang telah hancur&#32;&#10; &#32;&#10;
+\u2713Guided tissue regeneration, untuk merangsang pertumbuhan tulang baru guna mengganti tulang yang hancur akibat infeksi&#32;&#10; &#32;&#10;
+\u2713Tissue-stimulating proteins, untuk merangsang pertumbuhan jaringan dan tulang baru&#32;&#10; &#32;&#10;
+"
+                        android:textAlignment="inherit" />
+                    <TextView
+                        android:id="@+id/TXTpencegahan3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="900dp"
+                        android:textStyle="bold"
+                        android:text="Pencegahan Penyakit :" />
+                    <!--PERIODONTITIS-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTpencegahan3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="  \u2713Sikat gigi secara rutin, minimal dua kali sehari, yaitu setiap pagi setelah sarapan dan malam menjelang tidur. &#32;&#10; &#32;&#10;
+\u2713Bersihkan sela-sela gigi menggunakan benang gigi (dental floss). &#32;&#10; &#32;&#10;
+\u2713Hindari kebiasaan merokok dan menggunakan vape. &#32;&#10; &#32;&#10;
+\u2713Hindari aktivitas yang dapat memicu stres. &#32;&#10; &#32;&#10;
+\u2713Terapkan pola makan yang sehat dan seimbang. &#32;&#10; &#32;&#10;
+\u2713Lakukan kontrol dan berobat rutin jika menderita diabetes. &#32;&#10; &#32;&#10;
+\u2713Jaga berat badan ideal atau turunkan berat badan bila menderita obesitas. &#32;&#10; &#32;&#10;
+ "
+                        android:textAlignment="inherit" />
+
+
+                </RelativeLayout>
+                <!--PULPITIS AKUT-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+                    <!--PULPITIS AKUT-->
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="PULPITIS AKUT"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                    <!--PULPITIS AKUT-->
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT4"
+                        android:layout_marginLeft="8dp"
+                        android:textStyle="bold"
+                        android:text="Pengobatan Penyakit :" />
+                    <!--PULPITIS AKUT-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="\u2713Mengangkat karies yang ada. &#32;&#10; &#32;&#10;
+\u2713Meletakkan pelindung pulpa yang cocok. &#32;&#10; &#32;&#10;
+\u2713Restorasi permanen dilakukan. &#32;&#10; &#32;&#10;
+"
+                        android:textAlignment="inherit" />
+
+
+                    <TextView
+                        android:id="@+id/TXTpencegahan4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="150dp"
+                        android:textStyle="bold"
+                        android:text="Pencegahan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTpencegahan4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="\u2713Hindari makanan yang terlalu panas atau dingin&#32;&#10; &#32;&#10;
+\u2713Tingkatkan kebersihan mulut dengan menyikat gigi setelah makan.&#32;&#10; &#32;&#10;
+\u2713Jangan menggosok gigi terlalu keras.&#32;&#10; &#32;&#10;
+\u2713Menjaga pola makan sehat dengan kadar karbohidrat yang cukup.&#32;&#10; &#32;&#10;
+"
+                        android:textAlignment="inherit"/>
+
+                    <!--PULPITIS AKUT-->
+                </RelativeLayout>
+
+
+                <!--PULPITIS KRONIS-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+                    <!--PULPITIS KRONIS-->
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="PULPITIS KRONIS"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                    <!--PULPITIS KRONIS-->
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT5"
+                        android:layout_marginLeft="8dp"
+                         android:textStyle="bold"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <!--PULPITIS KRONIS-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="\u2713melibatkan perawatan saluran akar atau operasi cabut gigi. &#32;&#10; &#32;&#10;"
+                        android:textAlignment="inherit" />
+
+
+                    <TextView
+                        android:id="@+id/TXTpencegahan5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="120dp"
+                        android:textStyle="bold"
+                        android:text="Pencegahan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="inherit"
+                        android:layout_below="@+id/TXTpencegahan5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="\u2713Menjaga kebersihan mulut dengan menyikat gigi dua kali sehari di pagi hari setelah sarapan dan malam hari sebelum tidur. &#32;&#10; &#32;&#10;
+\u2713Berkumur dengan obat kumur antiseptik. &#32;&#10; &#32;&#10;
+\u2713Membersihkan gigi dengan benang gigi (dental flossing). &#32;&#10; &#32;&#10;
+\u2713Menjaga pola makan sehat, terutama dengan makan makanan yang baik untuk gigi. &#32;&#10; &#32;&#10;
+\u2713Hindari makanan yang terlalu panas atau dingin&#32;&#10; &#32;&#10;
+\u2713Tingkatkan kebersihan mulut dengan menyikat gigi setelah makan&#32;&#10; &#32;&#10;
+\u2713Jangan menggosok gigi terlalu keras&#32;&#10; &#32;&#10;
+
+"/>
+
+                    <!--PULPITIS KRONIS-->
+                </RelativeLayout>
+
+
+
+                <!--KALKULUS -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+                    <!--KALKULUS -->
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="KALKULUS"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                    <!--KALKULUS -->
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT6"
+                        android:layout_marginLeft="8dp"
+                       android:textStyle="bold"
+                        android:text="Pengobatan Penyakit :" />
+                    <!--KALKULUS -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi6"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Anda memerlukan bantuan dokter gigi untuk menghilangkan karang gigi yang sudah terbentuk. Metode yang umum digunakan untuk mengatasi karang gigi adalah scaling gigi. &#32;&#10; &#32;&#10;  Scaling gigi biasanya disertai dengan root planing untuk membersihkan saluran gigi. Pada dasarnya, karang gigi harus segera dibersihkan meski hanya sedikit dan tidak menimbulkan keluhan. Hal ini untuk mencegah terjadinya komplikasi penyakit gigi dan mulut. &#32;&#10; &#32;&#10;"
+                        android:textAlignment="inherit" />
+
+
+                    <TextView
+                        android:id="@+id/TXTpencegahan6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT6"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="250dp"
+                        android:textStyle="bold"
+                        android:text="Pencegahan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="inherit"
+                        android:layout_below="@+id/TXTpencegahan6"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="1. Menyikat gigi secara rutin &#32;&#10; &#32;&#10;
+Rutin menyikat gigi 2 kali sehari selama 2 menit merupakan salah satu cara mencegah karang gigi. Untuk memberikan perlindungan maksimal, gunakan pasta gigi yang mengandung fluoride serta sikat gigi dengan bulu sikat yang halus dan kepala sikat yang kecil agar dapat menjangkau sela-sela gigi. &#32;&#10; &#32;&#10;
+
+2. Melakukan flossing &#32;&#10; &#32;&#10;
+Lakukan flossing atau membersihkan gigi menggunakan benang gigi setidaknya 1 kali sehari setelah menyikat gigi. Cara ini bisa membantu Anda membersihkan plak dan sisa makanan yang masih tertinggal di sela gigi karena sulit dijangkau oleh sikat gigi. &#32;&#10; &#32;&#10;
+
+3. Mengurangi konsumsi gula &#32;&#10; &#32;&#10;
+Makanan yang mengandung banyak gula diketahui sebagai salah satu penyebab karang gigi. Reaksi antara bakteri alami di dalam mulut dengan makanan manis, dapat menghasilkan asam yang memicu pertumbuhan plak pada gigi. &#32;&#10; &#32;&#10;
+Oleh karena itu, kurangi konsumsi makanan manis dan perbanyak konsumsi makanan bergizi untuk menghindari penumpukan plak yang menjadi penyebab karang gigi. &#32;&#10; &#32;&#10;
+
+4. Minum air putih yang cukup &#32;&#10; &#32;&#10;
+Minum 2 liter atau 8 gelas air putih setiap harinya untuk mencukupi kebutuhan cairan tubuh. Air putih diketahui mampu mengangkat kotoran di mulut yang dapat memicu karang gigi dan mencegah mulut kering yang menjadi salah satu penyebab karang gigi. &#32;&#10; &#32;&#10;
+
+5. Menghentikan kebiasaan merokok dan minum minuman beralkohol &#32;&#10; &#32;&#10;
+Kebiasaan merokok dan minum minuman beralkohol diketahui buruk untuk kesehatan gigi dan mulut. Rokok dan minuman beralkohol dapat menyebabkan gigi menjadi kuning, sensitif, dan mulut menjadi kering sehingga dapat memicu pembentukan karang gigi.
+"/>
+
+                    <!--KALKULUS -->
+                </RelativeLayout>
+
+
+                <!--IMPAKSI -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+                    <!--IMPAKSI -->
+
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="IMPAKSI"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                    <!--IMPAKSI -->
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT7"
+                        android:layout_marginLeft="8dp"
+                        android:textStyle="bold"
+                        android:text="Pengobatan Penyakit :" />
+                    <!--IMPAKSI -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi7"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text=" Pengobatan impaksi gigi tergantung pada posisi gigi yang terdampak dan keparahan kondisinya. &#32;&#10;  Jika impaksi gigi tidak menimbulkan gejala, dokter umumnya akan meminta pasien untuk menjalani kontrol secara rutin. &#32;&#10; &#32;&#10;
+ Jika impaksi gigi menimbulkan gejala, dokter akan melakukan beberapa tindakan berikut: &#32;&#10; &#32;&#10;
+\u2713Cabut gigi&#32;&#10; &#32;&#10;
+ Prosedur cabut gigi dapat dilakukan jika pasien mengalami gejala impaksi gigi, seperti nyeri atau bau mulut. Perlu diingat bahwa pencabutan gigi hanya bisa dilakukan pada gigi yang impaksi sebagian. &#32;&#10; &#32;&#10;
+\u2713Operasi ekstraksi gigi&#32;&#10; &#32;&#10;
+ Jika impaksi gigi terjadi menyeluruh, dokter akan menyarankan operasi ekstraksi gigi. Pada operasi ini, dokter akan membuat sayatan pada gusi untuk mencabut gigi yang terkena impaksi. Setelah gigi tercabut, dokter akan menjahit kembali sayatan tersebut dan menutupnya dengan kain kasa. &#32;&#10; &#32;&#10;
+&#9679; Setelah memberikan penanganan di atas, dokter akan meresepkan obat pereda nyeri, seperti asam mefenamat. Jika diperlukan, dokter juga akan meresepkan antibiotik untuk mencegah infeksi. &#32;&#10; &#32;&#10;
+
+"
+                        android:textAlignment="inherit" />
+
+
+                    <TextView
+                        android:id="@+id/TXTpencegahan7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT7"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="550dp"
+                        android:textStyle="bold"
+                        android:text="Pencegahan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="inherit"
+                        android:layout_below="@+id/TXTpencegahan7"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text=" \u2713Mengunyah makanan dengan benar. &#32;&#10; &#32;&#10;
+ Salah satu cara mencegah impaksi gigi. Kunyah makanan dengan benar, sehingga makanan benar-benar halus baru ditelan. Mengunyah makanan juga jangan hanya di satu sisi saja tapi di semua sisi baik kiri dan kanan supaya seluruh gigi terstimulus dengan benar. &#32;&#10;  Gigi yang tidak terstimulus akan lemah dan terhambat pertumbuhannya. &#32;&#10; &#32;&#10;
+\u2713Memperhatikan suhu makanan dan minuman yang dikonsumsi. &#32;&#10; &#32;&#10;
+ Salah satu cara  mencegah impaksi gigi. Jangan membiasakan diri mengonsumsi makanan atau minuman yang terlalu panas maupun terlalu dingin yang hanya akan membuat gigi ngilu dan melemahkan akar gigi. &#32;&#10;  Gusi juga sangat sensitif terhadap suhu, sehingga bisa mengakibatkan radang. &#32;&#10; &#32;&#10;
+\u2713Menjaga kebersihan gigi. &#32;&#10; &#32;&#10;
+ Tips lain mencegah impaksi gigi. Apalagi kalau ternyata bentuk gigimu jarang-jarang, sehingga lebih memungkinkan sisa makanan menempel di sela-sela gigi. Membiasakan diri menyikat gigi setiap makan dapat mencegah timbulnya plak dan pertumbuhan karang gigi. &#32;&#10;  Berkumur-kumurlah setiap kali menggosok gigi untuk memperkuat gigi dan membersihkan gusi. &#32;&#10; &#32;&#10;
+\u2713Melakukan pemeriksaan ke dokter gigi secara rutin. &#32;&#10; &#32;&#10;
+  Adalah cara lain untuk mencegah impaksi gigi. Idealnya, dua kali dalam setahun adalah waktu yang pas untuk memeriksakan gigi sekaligus mengadakan pembersihan karang gigi. &#32;&#10;   Karang gigi yang tidak dibersihkan akan menekan gusi, memberikan ruang untuk bakteri berkumpul dan tidak elok dilihat secara estetika. &#32;&#10; &#32;&#10;
+"/>
+
+                    <!--IMPAKSI -->
+                </RelativeLayout>
+                <!--IMPAKSI -->
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

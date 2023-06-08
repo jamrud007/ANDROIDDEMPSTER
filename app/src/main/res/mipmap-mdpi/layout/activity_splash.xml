@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/backgroundsplash" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/R1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/first_line" android:background="@color/white" android:layout_width="20dp" android:layout_height="50dp" android:layout_centerHorizontal="true"/>
+        <View android:id="@+id/second_line" android:background="@color/darkRed" android:layout_width="20dp" android:layout_height="100dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/first_line"/>
+        <View android:id="@+id/third_line" android:background="@color/white" android:layout_width="20dp" android:layout_height="250dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/second_line"/>
+        <View android:id="@+id/fourth_line" android:background="@color/darkRed" android:layout_width="20dp" android:layout_height="200dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/third_line"/>
+        <View android:id="@+id/fifth_line" android:background="#1aad68" android:layout_width="20dp" android:layout_height="220dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/fourth_line"/>
+        <View android:id="@+id/sixth_line" android:background="@color/white" android:layout_width="20dp" android:layout_height="150dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/fifth_line"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/R2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/R1">
+        <TextView android:textSize="93sp" android:textColor="@color/white" android:id="@+id/a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dempster" android:layout_centerHorizontal="true" android:fontFamily="@font/boogalo_regular"/>
+        <TextView android:textSize="40sp" android:textColor="@color/white" android:id="@+id/shafer" android:paddingLeft="260dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="shafer" android:layout_below="@+id/a" android:fontFamily="@font/boogalo_regular"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/R3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140dp" android:layout_below="@+id/R2" android:layout_centerHorizontal="true">
+        <TextView android:textSize="27sp" android:textColor="@color/white" android:id="@+id/tagLine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="M. Syahputra Prima Negara" android:layout_centerHorizontal="true" android:fontFamily="@font/boogalo_regular"/>
+    </RelativeLayout>
+</RelativeLayout>

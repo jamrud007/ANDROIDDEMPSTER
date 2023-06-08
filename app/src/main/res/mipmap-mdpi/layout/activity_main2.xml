@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsplash"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/boogalo_regular"
+            android:text="Petunjuk Penggunaan"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text1112"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/text111"
+            android:text="Sistem Pakar Diagnosa Penyakit Kucing Dempster Shafer"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="FELINE INFECTIOUS PERITONITIS"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Berikan antibiotika, antimuntah,prednisolone,chlorambucil,dan recombinant feline interferon-omega"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="RHINOTRACHEITIS"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT2"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Berikan nutrisi agar kucing tidak dehidrasi, pemberian antibiotik untuk mencegah infeksi dan obat pernafasan"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="CALCIVIRUS"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT3"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="pisahkan kucing yang terkena flu dengan kucing lainnya, Usahakan kucing tidak mengalami dehidrasi dan pemberian vaksin FVR"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="FELINE PANLEUKOPIA"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT4"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Berikan obat antiemetik sukralfat, obat antidiare kaolin dan pektin, antibiotik metronidazol, dan pemberian vitamin"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="JAMUR"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT5"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Berikan sampo anti jamur untuk kucing. penambahan ekstra dengan penggunaan krim atau salep anti jamur kucing)"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="CACINGAN"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT6"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi6"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="berikan obat pirantel pamoat dan milbemycin oxime (pengobatan oral), serta selamectin (pengobatan topikal)"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="CHLAMYDIA"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT7"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi7"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Obati penyakit dengan antibiotik tetrasiklin.kemudian pemberian salep mata yang mengandung tetrasiklin.)"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="SCABIES"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT8"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi8"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Berikan Obat celup dan sampo anti tungau, obat topikal, serta obat suntik antibiotik)"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="FlUTD"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT9"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi9"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Berikan kucing pakan khusus untuk diet guna mengeleminasi kristal mineral pada saluran urinari"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="KONSTIPASI"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT10"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi10"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Tingkatkan asupan air minum agar kucing tidak dehidrasi,dan berikan pakan khusus rendah serat"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="RABIES"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT11"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi11"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Rabies Tidak dapat diobati namun pemberian vaksin antirabies dapat mencegah penularan penyakit rabies"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="HEPATITIS"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT12"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi12"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Berikan obat antibiotik, antiemetik, antiinflamasi, analgesik, serta hepatoprotektor untuk melindungi hati kucing)"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="GAGAL GINJAL"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT13"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi13"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Kurangi pakan mengandung fosfor dan mengandung protein tinggi untuk menstabilkan keadaan ginjal)"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="PYOMETRA"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT14"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi14"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Berikan antibakteri,fluid therapy berupa infus, hormon prostaglandin atau oxytocin, serta tindakan pembedahan untuk tingkat lanjut"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="FELINE LEUKIMIA"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT15"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Pengobatan Penyakit :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi15"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Penyakit ini sulit diobati namun pemberian vaksin FELV pada anak kucing usia 8 bulan dapat mencegah penyakit ini"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

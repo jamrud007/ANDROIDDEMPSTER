@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" app:cardCornerRadius="20dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="220dp">
+            <ImageView android:id="@+id/imageview1" android:layout_width="match_parent" android:layout_height="160dp" android:src="@drawable/kucingutama" android:scaleType="centerCrop"/>
+            <TextView android:textSize="16sp" android:textColor="#262626" android:id="@+id/tittle1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:text="Brochure" android:layout_below="@+id/imageview1"/>
+            <TextView android:textSize="13dp" android:id="@+id/desc1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="3dp" android:text="description" android:maxLines="3" android:layout_below="@+id/tittle1"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

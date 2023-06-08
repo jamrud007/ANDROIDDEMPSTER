@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsplash"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/boogalo_regular"
+            android:text="Petunjuk Penggunaan"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/text1112"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/text111"
+            android:text="Sistem Pakar Identifikasi Penyakit Gigi Dempster Shafer"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:textStyle="bold"
+                        android:text="Menu Identifikasi Penyakit"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Tata cara dan fungsi :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/text_menu_identifikasi"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:textStyle="bold"
+                        android:text="Menu Jenis Penyakit Gigi"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT2"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Tata cara dan fungsi :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Pilih salah satu dari 7 Penyakit Gigi, yang ingin anda ketahui informasinya dengan cara mengklik gambar Penyakit Gigi.&#32;&#10;  "
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:textStyle="bold"
+                        android:text="Menu Tentang Aplikasi"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT3"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Tata cara dan fungsi :" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Berisikan informasi tentang profil pengembang aplikasi  &#32;&#10; "
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

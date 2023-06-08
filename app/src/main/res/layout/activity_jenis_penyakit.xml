@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rlee"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/tittle_bulat_orange">
+
+                <TextView
+                    android:id="@+id/TextJudulJP"
+                    android:layout_width="250dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/boogalo_regular"
+                    android:text="Sistem Pakar"
+                    android:textAllCaps="true"
+                    android:textColor="#1573be"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/TextViewJNP"
+                    android:layout_width="250dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/TextJudulJP"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/boogalo_regular"
+                    android:text="Jenis Penyakit Gigi"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rlee"
+                android:layout_marginTop="10dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@+id/recyclerview_id1"
+                android:background="#f2ff5722" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

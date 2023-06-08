@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsplash"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/boogalo_regular"
+            android:text="Petunjuk Penggunaan"
+
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text1112"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/text111"
+            android:text="Sistem Pakar Diagnosa Penyakit Kucing Dempster Shafer"
+
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:gravity="center_horizontal" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="Menu Diagnosa"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Tata cara dan fungsi :" />
+
+                    <TextView
+                        android:id="@+id/textsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Pilih dua gejala atau lebih untuk melakukan diagnnosa penyakit pada kucing anda"
+                        android:textAlignment="inherit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textsatu"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Kemudian tekan tombol diagnosa untuk mendiagnosa penyakit kucing anda" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="Fitur Perintah Suara"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT5"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Tata cara dan fungsi :" />
+
+                    <TextView
+                        android:id="@+id/textsatu5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Masukkan perintah yang anda inginkan dalam bentuk suara.                                        -Ucapkan Diagnosa untuk membuka menu diagnosa penyakit                                         -Ucapkan Jenis Kucing untuk membuka menu jenis kucing                                        -Ucapkan Proil untuk membuka menu profil pengembang"
+                        android:textAlignment="inherit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="Menu Penyakit Kucing"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT2"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Tata cara dan fungsi :" />
+
+                    <TextView
+                        android:id="@+id/textsatu2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Pilih salah satu dari 15 Penyakit kucing yang ingin anda ketahui informasinya dengan cara mengklik gambar Penyakit"
+                        android:textAlignment="inherit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textsatu2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Fitur searchview memungkinkan anda untuk mencari penyakit kucing yang anda inginkan lebih cepat" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="Menu Jenis Kucing"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT3"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Tata cara dan fungsi :" />
+
+                    <TextView
+                        android:id="@+id/textsatu3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Pilih salah satu dari 9 jenis kucing yang ingin anda ketahui informasinya dengan cara mengklik setiap gambar kucing"
+                        android:textAlignment="inherit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textsatu3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Fitur searchview memungkinkan anda untuk mencari jenis kucing yang anda inginkan lebih cepat" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/buletcardview">
+
+                    <TextView
+                        android:id="@+id/MenudiagnosaTXT4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/boogalo_regular"
+                        android:text="Menu Tips Perawatan"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TXTtatacarafungsi4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/MenudiagnosaTXT4"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/gravtrac"
+                        android:text="Tata cara dan fungsi :" />
+
+                    <TextView
+                        android:id="@+id/textsatu4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TXTtatacarafungsi4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Pilih salah satu dari 7 jenis perawatan yang ingin anda ketahui informasinya dengan cara mengklik icon panah"
+                        android:textAlignment="inherit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textsatu4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-Fitur searchview memungkinkan anda untuk mencari jenis perawatan yang anda inginkan lebih cepat" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</RelativeLayout>
