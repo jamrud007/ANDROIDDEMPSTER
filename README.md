@@ -40,10 +40,11 @@ The Dempster-Shafer theory allows the system to combine separate pieces of infor
 
 | Halaman Utama | Pilih Gejala | Hasil Diagnosa |
 | :---: | :---: | :---: |
-| <img src="PASTE_LINK_GAMBAR_1![SKRIPSI JAMRUD KHATULISTIWA Image 77](https://github.com/user-attachments/assets/efdd0d6f-1177-4f9b-947e-eb0942acf76d)
-_DISINI" width="200"> | <img src="PASTE_LINK_GAMBAR_![SKRIPSI JAMRUD KHATULISTIWA Image 79](https://github.com/user-attachments/assets/e7e052bb-617e-42db-b6b4-31249d1869a1)
-2_DISINI" width="200"> | <img src="PASTE_LINK_GAM![SKRIPSI JAMRUD KHATULISTIWA Image 80](https://github.com/user-attachments/assets/ad8696e2-e319-45c6-8c52-e05d89d60d9a)
-BAR_3_DISINI" width="200"> |
+| <img src="![SKRIPSI JAMRUD KHATULISTIWA Image 77](https://github.com/user-attachments/assets/2bee66c4-43c3-45ed-8ef4-15148d42fd14)
+" width="200" /> | <img src="![SKRIPSI JAMRUD KHATULISTIWA Image 79](https://github.com/user-attachments/assets/fae5f060-064d-4a46-b954-d6c3ee46b162)
+" width="200" /> | <img src="![SKRIPSI JAMRUD KHATULISTIWA Image 80](https://github.com/user-attachments/assets/695b3ef5-eca2-488e-abab-db6c5ecf7416)
+" width="200" /> |
+
 
 ## 🔬 Validation & Testing
 
