@@ -40,7 +40,10 @@ The Dempster-Shafer theory allows the system to combine separate pieces of infor
 
 | Home Screen | Symptom Selection | Diagnosis Result |
 |:---:|:---:|:---:|
-| ![Home](link_to_image_1.png) | ![Selection](link_to_image_2.png) | ![Result](link_to_image_3.png) |
+| ![Home](link_to_image_![SKRIPSI JAMRUD KHATULISTIWA Image 77](https://github.com/user-attachments/assets/b236e98e-a969-45c3-ac14-1e58ef7be355)
+1.png) | ![Selection](link_to_ima![SKRIPSI JAMRUD KHATULISTIWA Image 79](https://github.com/user-attachments/assets/265648d5-600e-4984-8c65-63958ff4e620)
+ge_2.png) | ![Result](link_to_i![SKRIPSI JAMRUD KHATULISTIWA Image 80](https://github.com/user-attachments/assets/5fe3200e-9c56-4e10-8f53-b4fec5c40c7c)
+mage_3.png) |
 
 *(Note: Upload screenshots to your repo and link them here)*
 
