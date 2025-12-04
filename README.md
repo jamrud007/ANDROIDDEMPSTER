@@ -38,13 +38,12 @@ The Dempster-Shafer theory allows the system to combine separate pieces of infor
 
 ## 📸 Screenshots
 
-| Home Screen | Symptom Selection | Diagnosis Result |
-|:---:|:---:|:---:|
-| ![Home](https://github.com/user-attachments/assets/b236e98e-a969-45c3-ac14-1e58ef7be355)
- | ![Selection](https://github.com/user-attachments/assets/265648d5-600e-4984-8c65-63958ff4e620)
- | ![Result](https://github.com/user-attachments/assets/5fe3200e-9c56-4e10-8f53-b4fec5c40c7c)|
-
-*(Note: Upload screenshots to your repo and link them here)*
+| Halaman Utama | Pilih Gejala | Hasil Diagnosa |
+| :---: | :---: | :---: |
+| <img src="PASTE_LINK_GAMBAR_1![SKRIPSI JAMRUD KHATULISTIWA Image 77](https://github.com/user-attachments/assets/efdd0d6f-1177-4f9b-947e-eb0942acf76d)
+_DISINI" width="200"> | <img src="PASTE_LINK_GAMBAR_![SKRIPSI JAMRUD KHATULISTIWA Image 79](https://github.com/user-attachments/assets/e7e052bb-617e-42db-b6b4-31249d1869a1)
+2_DISINI" width="200"> | <img src="PASTE_LINK_GAM![SKRIPSI JAMRUD KHATULISTIWA Image 80](https://github.com/user-attachments/assets/ad8696e2-e319-45c6-8c52-e05d89d60d9a)
+BAR_3_DISINI" width="200"> |
 
 ## 🔬 Validation & Testing
 
